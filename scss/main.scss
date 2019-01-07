@@ -105,11 +105,12 @@ main {
 
   .job-3 {
     grid-area: job3;
+    display: none;
   }
 
   .job {
     background: lighten($primary-color, 5);
-    padding: 0.5rem;
+    padding: 0.7rem;
     border-bottom: $secondary-color 5px solid;
   }
 }
@@ -189,6 +190,33 @@ main {
   background: darken($primary-color, 10);
   color: set-text-color($primary-color);
   height: 60px;
+}
+
+#images {
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  #header {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-weight: 500;
+  }
+
+  h2 {
+    color: #eee;
+  }
+
+  hr {
+    margin-bottom: 3rem;
+  }
+}
+
+.caption {
+  padding: 1rem;
 }
 
 @import "mobile";
