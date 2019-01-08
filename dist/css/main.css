@@ -254,8 +254,8 @@ main {
 #images hr {
   margin-bottom: 3rem; }
 
-#images caption {
-  padding: 5rem 0; }
+.caption {
+  padding: 1rem; }
 
 @media screen and (min-width: 1171px) {
   .projects {
